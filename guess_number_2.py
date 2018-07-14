@@ -3,7 +3,7 @@
 
 def guess_number():
     min = 0
-    max = 1000
+    max = 1001
     counter = 0
     while True:
         guess = int((max-min) / 2) + min
