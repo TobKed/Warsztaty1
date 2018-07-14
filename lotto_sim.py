@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 from random import sample
 
-# LOTTO_NUMBERS = sample(range(1, 50), 6)
-LOTTO_NUMBERS = [1, 2, 3, 4, 5, 6]
+LOTTO_NUMBERS = sample(range(1, 50), 6)
+# LOTTO_NUMBERS = [1, 2, 3, 4, 5, 6]
 
 
 def validate_input(numbers):
